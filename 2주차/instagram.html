@@ -1,0 +1,83 @@
+<!--레이아웃 800px-->
+<!--inline style 정의 X-->
+<!--5개 이상의 id selector, class selector-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #user_profile{
+                width:100px;
+                height:100px;
+                border-radius: 70%;
+                margin:10px;
+            }
+            #top_bar{
+                width:800px;
+                display: flex;
+                align-items: center;
+            }
+            #bottom_bar{
+                width:800px;
+                display: flex;
+                align-items:flex-start;
+            }
+            #id{
+                width: 200;
+                font-size: 1.5rem;
+                font-weight: bold;
+                margin-left: 10px;
+            }
+            #plus_btn{
+                margin-left: 40px;
+                margin-top:20px;
+                margin-bottom: 20px;
+                width:40px;
+                height:40px;
+            }
+            .top_bar_space{
+                margin-left: 220px;
+                margin-right: 220px;
+            }
+            .main_photo{
+                width:800px;
+                height:800px;
+                margin : 10px;
+            }
+            .icon{
+                margin:20px;
+                width:50px;
+                height:50px;
+            }
+            .icon_space{
+                width:600px;
+            }
+            .like,.comment,.date{
+                margin-left : 20px;
+                margin-bottom: 10px;
+                font-size: 1.5rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="top_bar">
+            <img src="photo1.jpeg" id="user_profile">
+            <div id="id">jjeonge2_613</div>
+            <p class="top_bar_space"></p>
+            <img src="https://cdn-icons-png.flaticon.com/512/512/512142.png" id="plus_btn">
+        </div>
+        <div class="middel_bar">
+            <img src="IMG_3371.jpeg" class="main_photo">
+        </div>
+        <div id="bottom_bar">
+            <img src="https://cdn-icons-png.flaticon.com/128/1077/1077035.png" class="icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/5948/5948565.png" class="icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/2099/2099085.png" class="icon">
+            <div class="icon_space"></div>
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25667.png" class="icon">
+        </div>
+        <div class="like"> 좋아요 123개</div>
+        <div class="comment"> <strong>jjeonge2_613</strong> 한여름 저녁의 러닝</div>
+        <div class="comment"> 댓글 5개 모두 보기</div>
+        <div class="date"> 03월 16일, 2023</div>
+    </body>
+</html>
