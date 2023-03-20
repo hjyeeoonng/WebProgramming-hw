@@ -12,4 +12,4 @@ Record the Web programming task.
 #### 3주차
     1. 인스타그램 레이아웃 HTML 구성하기
     2. 요리 레시피 문서를 제시된 레이아웃으로 구성하기
-    <img src="3주차/3주차레이아웃.JPG">
+<p align="center"><img src="3주차\3주차레이아웃.JPG" width="90%" height="auto"></p>
